@@ -2,7 +2,8 @@
 
 This repository is for all deep learning related materials.
 
-## DEEPLEARNING.AI  [https://www.coursera.org/specializations/deep-learning?]  
+### DEEPLEARNING.AI  [https://www.coursera.org/specializations/deep-learning?]    
+WARNING: jupyter notebooks contains answers to the programming assignments in the course. Please do not copy if you are taking the course, only use it for study purposes.      
 
 COURSE 1: Neural Networks and Deep Learning    
 - Logistic Regression with a Neural Network mindset       
@@ -38,4 +39,4 @@ COURSE 5: Sequence Models
 - Trigger word detection   
 
 
-## FAST.AI  [https://www.fast.ai/]  
+### FAST.AI  [https://www.fast.ai/]  
