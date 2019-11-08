@@ -25,9 +25,21 @@ COURSE 4: Convolutional Neural Networks
 - Convolutional Model: application   
 - Keras Tutorial  
 - Residual Networks   
-- Car Detection with YOLO   
-- Art Generation with Neural Style Transfer   
+- Car Detection with YOLO
 - Face Recognition   
+    - Triplet Loss
+    - Face Verification
+    - Face Recognition
+- Art Generation with Neural Style Transfer (NST)   
+    - Content Cost Function   
+      $$J_{content}(C,G) =  \frac{1}{4 \times n_H \times n_W \times n_C}\sum _{ \text{all entries}} (a^{(C)} - a^{(G)})^2\tag{1} $$
+    - Style Cost Function  
+      Gram Matrix: ${\displaystyle G_{ij} = v_{i}^T v_{j} = np.dot(v_{i}, v_{j})  }$    
+      style cost one layer: $$J_{style}^{[l]}(S,G) = \frac{1}{4 \times {n_C}^2 \times (n_H \times n_W)^2} \sum _{i=1}^{n_C}\sum_{j=1}^{n_C}(G^{(S)}_{ij} - G^{(G)}_{ij})^2\tag{2} $$      
+      style cost multiple layers: $$J_{style}(S,G) = \sum_{l} \lambda^{[l]} J^{[l]}_{style}(S,G)$$   
+    - Total Cost Function  
+      $$J(G) = \alpha J_{content}(C,G) + \beta J_{style}(S,G)$$   
+
 
 COURSE 5: Sequence Models     
 - Building a recurrent neural network - step by step  
