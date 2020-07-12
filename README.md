@@ -1,4 +1,4 @@
-# deeplearning
+# DeepLearning
 
 This repository is for all deep learning related materials.
 
